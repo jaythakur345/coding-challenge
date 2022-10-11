@@ -29,7 +29,7 @@ const Login = () => {
                     <input type="password" placeholder='Password' className='border-2 py-1 px-2 mb-3 rounded bg-gray-50 outline-none' onChange={e=>setPassword(e.target.value)} />
                     <button className='bg-[#3f51b5] px-4 py-2 text-white rounded hover:opacity-[0.9]' onClick={handleSubmit}>Login
                     </button>
-                    <Link to="/sign-up" className='text-center mt-3 text-blue-800'>Create a account.</Link>
+                    <Link to="/" className='text-center mt-3 text-blue-800'>Create a account.</Link>
                 </form>
             </div>
         </div>
