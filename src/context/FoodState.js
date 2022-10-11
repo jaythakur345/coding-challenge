@@ -28,9 +28,6 @@ const FoodState = (props) =>{
         },
     ]
 
-    // useEffect(() => {
-    //     console.log(uniqueArray.length);
-    // }, [order])
     
     return (
         <FoodContext.Provider value={{totalBurgur, setTotalBurgur, totalFries, setTotalCoke, totalCoke, setTotalFries, totalPepsi,setTotalPepsi, state, order, setOrder, uniqueArray}}>

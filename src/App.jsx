@@ -16,8 +16,8 @@ function App() {
         <FoodState>
           <Header />
           <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<SignUp />} />
             <Route path="/home" element={user ? <Home /> : <Login />} />
             <Route path="/menu" element={user ? <Menu /> : <Login />} />
             <Route path="/checkout" element={user ? <CheckOut /> : <Login />} />
